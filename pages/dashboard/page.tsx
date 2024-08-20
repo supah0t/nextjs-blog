@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export function Dashboard () {
+const Dashboard = () => {
 
   const [data, setData] = useState();
 
@@ -18,3 +18,5 @@ export function Dashboard () {
     </div> 
   );
 }
+
+export default Dashboard;
